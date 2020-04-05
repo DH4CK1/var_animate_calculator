@@ -22,3 +22,5 @@ elif opt == '*':
 elif opt == '/':
    hasil = no1/no2
    print(animvar.true('Hasil: {}').format(hasil))
+else:
+   print(animvar.false('Sepertinya operator salah'))
